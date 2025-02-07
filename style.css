@@ -12,17 +12,91 @@ html{
 }
 @font-face {
     font-family: O-bold ;
-    src: url(/Fonts/Otterco-Bold.woff);
+    src: url(./Fonts/OttercoDisplay-Bold.woff);
 }
 @font-face {
     font-family: O-regular ;
-    src: url(/Fonts/Otterco-Regular.woff);
+    src: url(./Fonts/OttercoDisplay-Regular.woff);
 }
 @font-face {
     font-family: O-medium ;
-    src: url(/Fonts/OttercoDisplay-Medium.woff);
+    src: url(./Fonts/OttercoDisplay-Medium.woff);
 }
 @font-face {
     font-family: O-light ;
-    src: url(/Fonts/Otterco-Light.woff);
+    src: url(./Fonts/OttercoDisplay-Light.woff);
+}
+.Page-1{
+    background-color: rgb(189, 186, 186);
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:3rem 8rem;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 3rem;
+    /* background-color: yellow; */
+    
+}
+.email-section{
+    border: none;
+    border-radius: 3rem;
+    /* background-color: aqua; */
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: rgb(204, 197, 197);
+}
+.email-section p{
+    font-size: 1.2rem;
+    font-family: O-regular;
+    font-weight: 400;
+    letter-spacing: .5px;
+    color: rgb(68, 66, 66);
+}
+.copy-btn{
+    border: 2px solid white;
+    border-radius: 3rem;
+    padding: 1.5rem 4rem;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-family: O-medium;
+    font-weight: 400;
+    letter-spacing: .5px;
+    background-color: white;
+    color: rgb(68, 66, 66);
+}
+.cv-btn{
+    padding: 1.7rem 4rem;
+    background-color: transparent;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    font-family: O-medium;
+    font-weight: 400;
+    letter-spacing: .5px;
+    background-color: white;
+    border: none;
+    color: rgb(68, 66, 66);
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.right-nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    letter-spacing: .2px;
+    font-family: O-regular;
+    color: rgb(68, 66, 66);
+    font-weight: 400;
 }
