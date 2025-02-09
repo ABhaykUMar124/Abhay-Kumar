@@ -27,7 +27,7 @@ html{
     src: url(./Fonts/OttercoDisplay-Light.woff);
 }
 .Page-1{
-    background-color: rgb(189, 186, 186);
+    background-color: rgb(234, 229, 229);
     height: 100vh;
     width: 100%;
 }
@@ -54,7 +54,7 @@ html{
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    background-color: rgb(204, 197, 197);
+    background-color: rgb(222, 221, 221);
 }
 .email-section p{
     font-size: 1.2rem;
@@ -66,7 +66,7 @@ html{
 .copy-btn{
     border: 2px solid white;
     border-radius: 3rem;
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 3.5rem;
     background-color: transparent;
     font-size: 1.2rem;
     font-family: O-medium;
@@ -94,9 +94,104 @@ html{
 }
 .right-nav a{
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     letter-spacing: .2px;
     font-family: O-regular;
     color: rgb(68, 66, 66);
     font-weight: 400;
 }
+.right-nav h1{
+    font-size: 1.3rem;
+    letter-spacing: .2px;
+    font-family: O-regular;
+    color: rgb(68, 66, 66);
+    font-weight: 400;
+}
+.home-page{
+    
+}
+.My-pic{
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    justify-self: center;
+    margin-top: 5rem;
+    position: absolute;
+    border: 4px solid white;
+}
+.img-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    
+}
+.name{
+    position: relative;
+    z-index: 1;
+    margin-left: 20rem;
+    font-family: O-light;
+    background-color: white;
+    font-size: 1.3rem;
+    padding: 1.5rem 1.5rem;
+    border-radius: 3rem;
+    rotate: 350deg;
+    font-weight: 100;
+    animation: Updown 5s ease infinite;
+    letter-spacing: .5px;
+}
+
+    @keyframes Updown{
+        0% {
+        transform: translateY(-0%);
+        }
+        50% {
+        transform: translateY(-50%);
+        }
+        50% {
+        transform: translateY(50%);
+        }
+        100% {
+        transform: translateY(10%);
+        }
+        
+    }
+    .home-page-text{
+        position: relative;
+    }
+    .main-text{
+        position: relative;
+        text-align: center;
+        margin-top: 8rem;
+        font-size: 6rem;
+        font-family: O-medium;
+        line-height: 6.5rem;
+        background-image: linear-gradient(to right, black , black, rgb(132, 130, 130), rgb(174, 171, 171));
+        color: transparent;
+        background-clip: text;
+    }
+    .Project-btn{
+        padding: 20px 40px;
+        background-color: transparent;
+        border-radius: 30px;
+        font-size: 12px;
+        font-family: O-medium;
+        font-weight: 100;
+        background-color: black;
+        border: none;
+        color: white;
+        display: flex;
+        justify-self: center;
+        gap: 5px;
+        text-decoration: none;
+        margin-top: 3rem;
+        letter-spacing: .5px;
+        text-align: center;
+    }
+    .Project-btn i{
+        font-size: 15px;
+        text-align: center;
+    }
